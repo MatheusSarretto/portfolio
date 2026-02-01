@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes do Projeto - Sistema de Gestão de Notas de Alunos</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            
+            <nav class="menu-left">
+                <ul>
+                    <li><a href="../index.html  ">Página inicial</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu-right">
+                <a href="mailto:matheus.sarretto@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/matheus-sarretto/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/MatheusSarretto" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <section id="portfolio" class="bloco-visivel">
+            <h1 class="details-title">Sistema de Gestão de Notas de Alunos</h1>
+
+            <p class="details-description">
+                Desenvolvimento de uma aplicação web Full Stack para gerenciar o ciclo
+                acadêmico de uma instituição de ensino. O sistema permite o gerenciamento de
+                disciplinas, turmas, matrículas e o lançamento de notas e frequências, com geração de
+                relatórios automatizados. O projeto foca na segurança, integridade de dados e experiência
+                do usuário, separando o acesso em três perfis: Administrador, Professor e Aluno.
+            </p>
+            <p class="details-description">
+                O sistema utiliza uma arquitetura RESTful, com o Backend servindo dados em
+                formato JSON para um Frontend desacoplado do tipo Single Page Application.
+            </p>
+            <ul class="details-ul">
+                <li class="details-li">Backend: Java com Spring Boot</li>
+                <li class="details-li">Banco de Dados: MySQL</li>
+                <li class="details-li">Frontend: React.js</li>
+            </ul>
+            <div class="image-wrapper">
+                <img src="gestaodenotas/gestaodenotas-1.jpg" alt="Imagem do Projeto" class="details-image">
+                <p class="image-caption"></p>
+            </div>
+            <p class="details-description">
+                A interface inicial é a tela de login, após realizar a autenticação, o usuário irá acessar o painel adequado ao nível de seu perfil.
+            </p>
+        </section>
+
+        <section id="portfolio" class="bloco-visivel">
+            <h2 class="details-subtitle">Painel Administrativo</h2>
+            <div class="image-wrapper">
+                <img src="gestaodenotas/gestaodenotas-2.jpg" alt="Imagem do Projeto" class="details-image">
+                <p class="image-caption"></p>
+            </div>
+            <p class="details-description">
+                Administradores tem o maior nível de acesso, com o painel permitindo ver, adicionar, modificar e remover: disciplinas, turmas, matrículas e outros usuários. 
+            </p>
+        </section>
+
+        <section id="portfolio" class="bloco-visivel">
+            <h2 class="details-subtitle">Painel do Professor</h2>
+            <div class="image-wrapper">
+                <img src="gestaodenotas/gestaodenotas-3.jpg" alt="Imagem do Projeto" class="details-image">
+                <p class="image-caption"></p>
+            </div>
+            <p class="details-description">
+                Em seu painel, professores podem acessar cada uma de suas turmas, ver a lista de alunos matriculados e gerenciar suas notas e frequências, além de gerar relatórios automatizados em PDF e XLSX.
+            </p>
+        </section>
+
+        <section id="portfolio" class="bloco-visivel">
+            <h2 class="details-subtitle">Painel do Aluno</h2>
+            <div class="image-wrapper">
+                <img src="gestaodenotas/gestaodenotas-4.jpg" alt="Imagem do Projeto" class="details-image">
+                <p class="image-caption"></p>
+            </div>
+            <p class="details-description">
+                Em seu painel, alunos podem ver as disciplinas em que estão matriculados, suas notas e frequências.
+            </p>
+        </section>
+
+        <section id="portfolio" class="bloco-visivel-menor">
+            <p class="description-center">
+                Acesse o código fonte e a documentação do projeto:
+            </p>
+            <a href="https://github.com/MatheusSarretto/LP3" class="btn-center">Repositório</a>  
+        </section>
+
+    </div>
+
+</body>
+</html>
